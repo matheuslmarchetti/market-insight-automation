@@ -51,6 +51,7 @@ market_insight_automation/
 ├── data/
 │   ├── raw/          # dados brutos coletados
 │   └── processed/    # dados tratados
+│   └── reports/    # arquivo de relatorios
 │
 ├── app/
 │   ├── main.py       # aplicação FastAPI
@@ -60,6 +61,7 @@ market_insight_automation/
 │   └── report.py
 │
 ├── notebooks/
+│   └── analysis.ipynb
 │   └── exploration.ipynb
 │
 ├── requirements.txt
