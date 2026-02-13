@@ -212,17 +212,16 @@ uvicorn app.main:app --host 0.0.0.0 --port 10000
 
 ## 📸 Prints
 
-1️⃣ Tela do Swagger
-[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+### 1️⃣ Tela do Swagger: http://127.0.0.1:8000/docs
 ![Swagger UI](images/swagger-ui.png "Documentação automática da API")
 
-2️⃣ Endpoint `/stocks/AAPL` executado
+### 2️⃣ Endpoint `/stocks/AAPL` executado
 ![Endpoint Stocks](images/endpoint-stock.png "Endpoint Stocks")
 
-3️⃣ Excel aberto com métricas
+### 3️⃣ Excel aberto com métricas
 ![Excel Report](images/excel-report.png "Excel Reports")
 
-4️⃣ Estrutura do projeto no VSCode
+### 4️⃣ Estrutura do projeto no VSCode
 ![Project Structure](images/project-structure.png "Project Structure")
 
 ---
