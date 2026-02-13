@@ -131,6 +131,11 @@ AAPL_report.xlsx
 ```
 market_insight_automation/
 │
+├── data/
+│   ├── raw/          # dados brutos coletados
+│   └── processed/    # dados tratados
+│   └── reports/    # arquivo de relatorios
+│
 ├── app/
 │   ├── main.py       # aplicação FastAPI
 │   ├── market_data.py
@@ -138,20 +143,13 @@ market_insight_automation/
 │   ├── analysis.py
 │   └── report.py
 │
-├── data/
-│   ├── processed/    # dados tratados
-│   ├── raw/          # dados brutos coletados
-│   └── reports/    # arquivo de relatorios
-│
-├── images       # Prints do projeto
-│
 ├── notebooks/
 │   └── analysis.ipynb
 │   └── exploration.ipynb
 │
-├── .gitignore
+├── requirements.txt
 ├── README.md
-└── requirements.txt
+└── .gitignore
 
 ```
 
